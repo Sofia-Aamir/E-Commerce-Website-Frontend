@@ -1,0 +1,73 @@
+/* AboutUsPage.css */
+
+.about-us-container {
+    text-align: center;
+  }
+  
+  .our-story-section {
+    margin-top: 130px; /* Adjust as needed */
+  }
+
+  .our-story-section p{
+    text-align: center;
+  }
+  
+  .images-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .image {
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+ /* AboutUsPage.css */
+
+.mission-section,
+.vision-section {
+  display: flex;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* AboutUsPage.css */
+
+.mission-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .mission-image {
+    margin-right: 100px; /* Adjust the margin as needed for spacing */
+  }
+  
+
+  
+  .mission-paragraph {
+    max-width: 400px; /* Adjust the max-width as needed */
+    text-align: center;
+  }
+  
+  .mission-section h3 {
+    margin-bottom: 10px; /* Adjust as needed for spacing */
+  }
+  
+  .vision-paragraph {
+    max-width: 400px; /* Adjust the max-width as needed */
+    text-align: center;
+    margin-left: 100px; 
+  }
+  
+  .vision-section h3 {
+    margin-bottom: 10px; /* Adjust as needed for spacing */
+  }
+
+  .vision-image {
+    margin-left: 300px; /* Adjust the margin as needed for spacing */
+    width: 300px;
+    height: 300px;
+  }
+  

@@ -1,0 +1,32 @@
+/* GlassAndLensPage.css */
+
+.glass-and-lens-page {
+    margin-top: 80px; /* Adjust the margin to move the entire page down */
+  }
+  
+  .glass-and-lens-page .col-md-3 {
+    margin-bottom: 20px;
+  }
+  
+  .glass-and-lens-page img {
+    width: 100%; /* Make the width of all images 100% */
+    height: 200px; /* Set a fixed height for all images, adjust as needed */
+    object-fit: cover;
+    
+  }
+  
+  .glass-and-lens-page h3,
+  .glass-and-lens-page p,
+  .glass-and-lens-page button {
+    text-align: center; /* Center align text and buttons */
+  }
+  /* .glass-image {
+    background-color: gray;
+} */
+  
+  /* Add any additional styling as needed */
+
+  /* GlassAndLens.css */
+
+
+  

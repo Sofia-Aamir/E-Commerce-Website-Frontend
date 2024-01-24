@@ -1,0 +1,171 @@
+.home-banner-container {
+  position: relative;
+  display: flex;
+  padding-top: 8rem;
+}
+
+.home-bannerImage-container {
+  position: absolute;
+  top: -100px;
+  right: 160px;
+  z-index: -2;
+  max-width: 700px;
+  height: 30px;
+}
+
+.home-image-section {
+  flex: 1;
+  margin-left: 10%;
+}
+
+/* External CSS File (styles.css) */
+
+.featured-products {
+  margin-top: -200px; /* Adjust the value to move the section up or down */
+}
+
+/* External CSS File (styles.css) */
+
+.featured-products img {
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Maintains aspect ratio */
+  max-height: 400px; /* Adjust the maximum height as needed */
+}
+
+/* External CSS File (styles.css) */
+
+.red-button {
+  background-color: orange;
+  color: black; /* Set the text color to black */
+}
+
+.secondary-button {
+  background-color: orange;
+  color: black; /* Set the text color to black */
+}
+
+.link-style {
+  color: orange; /* Set the link text color to orange */
+}
+
+
+
+
+.home-text-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 340px;
+}
+
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: black;
+  /* line-height: 5rem; */
+  max-width: 600px;
+}
+.primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  max-width: 500px;
+  color:black;
+  margin: 1.5rem 0rem;
+}
+
+.secondary-button {
+  padding: 1rem 2.5rem;
+  background-color: #fe9e0d;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondary-button svg {
+  margin-left: 0.75rem;
+  font-size: 1.5rem;
+}
+.secondary-button:hover {
+  background-color: #e48f0f;
+}
+
+/* External CSS file */
+.new-section{
+  margin-top: 3%;
+}
+.new-section img {
+  width: 120%; /* Adjust the percentage to increase the width */
+  height: 80%; /* Adjust the percentage to decrease the height */
+  object-fit: cover;
+  display: block;
+  margin-left: 5%; /* Adjust the negative margin to center the image */
+ 
+}
+
+
+.new-section h1,
+.new-section p,
+.new-section button
+ {
+  margin-left: 5%;
+ 
+}
+
+.new-arrival {
+  margin-top: -50px; /* Adjust the value to move the section up or down */
+}
+
+.two-parts-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.two-parts-section img {
+  width: 60%; /* Adjust the width as needed */
+  height: 80%; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+.two-parts-section .row {
+  display: flex;
+  align-items: stretch;
+}
+
+.two-parts-section .col-md-6 {
+  flex: 1;
+  position: relative;
+}
+
+.two-parts-section .image-description {
+  position: absolute;
+  top: 0;
+  left: 60%;/* Adjust the width of the description area */
+  padding: 20px; /* Add padding for better visibility */
+
+  color: black; /* Adjust text color as needed */
+  box-sizing: border-box;
+}
+.team {
+  margin-top: -80px; /* Adjust the value to move the section up or down */
+}
+
+.team img {
+  width: 100%; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.team .col-md-3 {
+  margin-bottom: 10px; /* Add margin between the columns */
+}
+
+.team p {
+  margin-bottom: 15px; /* Add margin below the paragraph */
+}
